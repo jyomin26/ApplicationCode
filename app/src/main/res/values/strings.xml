@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ApplicationCode</string>
+    <string name="call_dealer">CALL DEALER</string>
+    <string name="retry">RETRY</string>
+    <string name="error_generic">Something went wrong</string>
+    <string name="loading">Loading…</string>
+    <string name="year_make_model_trim">%1$d %2$s %3$s %4$s</string> <!-- year make model trim -->
+    <string name="location_format">%1$s, %2$s</string> <!-- City, State -->
+    <string name="price_mileage">$%.0f | %d mi</string>
+    <string name="vehicle_info">Vehicle Info</string>
+    <string name="location">Location</string>
+    <string name="exterior_color">Exterior Color</string>
+    <string name="interior_color">Interior Color</string>
+    <string name="drive_type">Drive Type</string>
+    <string name="transmission">Transmission</string>
+    <string name="body_style">Body Style</string>
+    <string name="engine">Engine</string>
+    <string name="fuel">Fuel</string>
+    <string name="vehicle_not_found">Vehicle not found</string>
+    <string name="vehicle_loading_details">Loading Vehicle details…</string>
+    <string name="no_vehicle_found">No Vehicle found</string>
+    <string name="back">Back</string>
+    <string name="permission_denied">Permission Denied</string>
+</resources>
