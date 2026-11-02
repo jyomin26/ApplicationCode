@@ -1,21 +1,21 @@
-# CARFAX Vehicle Listing App
+# Android Application
 
-A native Android vehicle listing app built with **Kotlin** and **Jetpack
+A native Android app built with **Kotlin** and **Jetpack
 Compose**, following **Clean Architecture** and **MVVM**.
 
-The app displays vehicle listings, provides a vehicle details screen,
+The app displays listings, provides a details screen,
 and lets users contact a dealer by phone.
 
 ## Features
 
--   Vehicle listing and vehicle details screens
+-   Listing and Details screens
 -   Modular Gradle architecture with separate `app`, `domain`, and
     `data` modules
 -   Clean Architecture with domain use cases and repository abstraction
 -   MVVM with reactive UI state using sealed interfaces and `StateFlow`
 -   Retrofit for remote API communication
 -   Room for local persistence and offline-friendly caching
--   Room as the local source of truth for UI-observed vehicle data
+-   Room as the local source of truth for UI-observed data
 -   Kotlin Coroutines and Flow for asynchronous and reactive operations
 -   Hilt for dependency injection
 -   Loading, empty, error, and success UI states
@@ -54,7 +54,7 @@ The project is organized into three Gradle modules:
     module.
 3.  The data module implements the repository and coordinates remote and
     local data sources.
-4.  Retrofit retrieves remote vehicle data, and Room stores the data
+4.  Retrofit retrieves remote data, and Room stores the data
     locally.
 5.  The UI observes data exposed through Flow and updates through
     StateFlow-backed UI state.
@@ -70,7 +70,7 @@ data-source implementation details.
 4.  Select the `app` run configuration.
 5.  Run the app on an emulator or a connected Android device.
 
-> **Note:** Network access is required to retrieve remote vehicle data.
+> **Note:** Network access is required to retrieve remote data.
 > The app can use locally cached data when available, depending on the
 > current data and error-handling implementation.
 
@@ -95,14 +95,6 @@ This project demonstrates modular Android development, separation of
 concerns, reactive UI state management, dependency injection, network
 and database integration, and a user-friendly Compose interface.
 
-## Screenshots
-Vehicle Listing Screen
-<br>
-<img src="https://github.com/user-attachments/assets/0920c9f4-1a11-4bed-877a-0dfa11ea8cc2" width="270" alt="Vehicle Listing Screen" title="Vehicle Listing" />
-<br><br>
-Vehicle Detail Screen
-<br>
-<img src="https://github.com/user-attachments/assets/ccc18566-26b1-4aa6-b00b-e1701e91ebac" width="270" alt="Vehicle Detail Screen" title="Vehicle Detail Screen"/>
 
 
 
